@@ -19,6 +19,12 @@ On a mac:
 stack test
 ```
 
+## Run a single test file
+
+```
+stack runghc -- -isrc -itest test/Cis194/Hw/SomeSpec.hs
+```
+
 ## Using QuickCheck in ghci
 
     :m +Test.QuickCheck
